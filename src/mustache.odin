@@ -1,11 +1,12 @@
 package mustache
 
+import "base:runtime"
+
 import "core:encoding/json"
 import "core:fmt"
 import "core:mem"
 import "core:os"
 import "core:reflect"
-import "core:runtime"
 import "core:slice"
 import "core:strings"
 
